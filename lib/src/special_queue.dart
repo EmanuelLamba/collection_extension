@@ -164,6 +164,7 @@ class SpecialQueue<E> {
           for (int j = i; j < _queueList.length - 1; j++) {
             _queueList[j] = _queueList[j + 1];
           }
+          _queueList.removeLast();
           return true;
         }
       }
@@ -203,7 +204,7 @@ class SpecialQueue<E> {
   /// ```
   E? removeFirst() {
     if (canPop) {
-      final int indexToRemove = _queueList[0];
+      final int indexToRemove = 0;
       final removedItem = _queueList[indexToRemove];
       _queueList.removeAt(indexToRemove);
       return removedItem;

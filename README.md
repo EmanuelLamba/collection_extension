@@ -56,7 +56,7 @@ final specialQueue = SpecialQueue();
    specialQueue.removeFirst(); // [33]
    specialQueue.push(44); // [33, 44]
    print(specialQueue.peak); // [33]
-   specialQueue.pushAll([20, 50, 34, 127]); // [33, 20, 50, 34, 127]
+   specialQueue.pushAll([20, 50, 34, 127]); // [33, 44, 20, 50, 34, 127]
 ```
 
 ## Additional information
