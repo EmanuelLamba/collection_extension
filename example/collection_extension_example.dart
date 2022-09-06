@@ -1,6 +1,6 @@
 import 'dart:collection';
 
-import 'package:new_package/new_package.dart';
+import 'package:collection_extension/collection_example.dart';
 
 void main() {
   // final manu = Stack();
