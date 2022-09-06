@@ -1,4 +1,4 @@
-/// A [Stack] is a collection that can be manipulated at one end.
+/// A [Stack] is a `collection` that can be manipulated at one end.
 /// One can execute the stack using [executeStack] method.
 ///
 /// The [Stack] can be either created empty or with `elements` given

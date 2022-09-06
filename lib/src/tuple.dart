@@ -1,4 +1,4 @@
-/// A [Tuple] is a collection with fixed length and elements.
+/// A [Tuple] is a `collection` with fixed length and elements.
 ///
 /// The [Tuple] is created by initialising the [List] that manages
 /// the [Tuple] with the elements of [List] passed as argument to
